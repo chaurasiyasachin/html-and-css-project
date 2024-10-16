@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background: url('red fort.jpg') no-repeat center center/cover;
+    height: 120vh;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero p{
+    font-size: bold;
+    color: aqua;
+}
+h1 {
+    font-size: 3rem;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: green;
+
+}
+
+.destination-card {
+    background-color: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    color: green;
+}

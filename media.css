@@ -1,0 +1,32 @@
+@media screen and (max-width: 1660px){
+    .offers {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1415px){
+    .offers {
+        width: 82%;
+    }
+}
+@media screen and (max-width: 1265px){
+    header {
+        width:70%;
+    }
+    .offers {
+        width: 82%;
+    }
+    .destination {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 1265px){
+    header {
+        width:70%;
+    }
+    .offers {
+        width: 82%;
+    }
+    .destination {
+        width: 60%;
+    }
+}

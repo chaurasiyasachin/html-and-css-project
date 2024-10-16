@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Website</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background: #dedada;
+            margin: 0cqw 0px 0px 20px;
+        }
+        input{
+            text-align: center;
+            height: 20px;
+            width: 300px;
+        }
+        div input{
+            height: 20px;
+            width: 80px;
+            margin-bottom: 8px;
+        }
+        p input{
+            width: 80px;
+            height: 20px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+   <pre> <h1>Welcome to our travel website</h1></pre><br>
+    
+    <form >
+      <b> Name </b><br><input type="text" placeholder="First Name" >
+      <input type="text" placeholder="Last Name">
+      
+      <br><br>
+     <div> <b>Preferred contact method </b><br>
+      <label for="phone">phone</label>
+      <input type="radio" id="phone" name="contact method" value="phone">
+      <label for="email">email</label>
+      <input type="radio" id="email" name="contact method" value="email">
+
+      <label for="either">either</label>
+      <input type="radio" id="either" name="contact method" value="either">
+    </div><br>
+  <b>Enter phone number</b><br> <input type="text" placeholder="enter number">
+       <br><br>
+       <b>Enter email address</b><br><input type="text" placeholder="email address">
+       <br><br>
+       <b>Travel available from</b><br><input type="date">
+    <br><br>
+      <div> <b>Are your date flexible</b><br>
+       <label for="yes">yes</label>
+       <input type="radio" id="yes" name="date">
+       <label for="no">no</label>
+       <input type="radio" id="no" name="date">
+    </div> <br>
+    <p> <input type="submit" value="submit"></p>
+    </form>
+</body>
+</html>

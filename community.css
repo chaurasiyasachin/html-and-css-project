@@ -1,0 +1,43 @@
+.community-section {
+    padding: 50px;
+    background-color: rgba(210, 231, 233, 0.349);
+    text-align: center;
+}
+
+.community-section h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.testimonial {
+    background-color: rgba(241, 152, 152, 0.489);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+.testimonial:hover {
+    transform: scale(1.08);
+}
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-review {
+    font-style: italic;
+}
